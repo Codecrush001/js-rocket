@@ -1,5 +1,5 @@
 var doCoolStuff = function () {
-	document.getElementbyId('cool').className = 'cool green';
+	document.getElementById('cool').className = 'cool green';
 }
 var sayMyName = function (name) {
 	alert('My name is: '+name);
