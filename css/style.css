@@ -4,11 +4,12 @@ body {
 }
 
 .cool {
+	visibility: hidden;
 	width: 100px;
 	height: 100px;
 	color: white;
 	background-color: maroon;
-	transition: background-color 1s;
+	transition: background-color 2s;
 	margin-top: 20px;
 	padding: 10px;
 }
