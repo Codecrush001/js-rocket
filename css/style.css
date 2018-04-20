@@ -2,3 +2,18 @@
 body {
 	background-color: #dbdbdb;
 }
+
+.cool {
+	width: 100px;
+	height: 100px;
+	color: white;
+	background-color: maroon;
+	transition: background-color 1s;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.cool.green {
+	visibility: visible;
+	background-color: green;
+}
